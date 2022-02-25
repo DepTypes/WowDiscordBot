@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WowBot
+{
+    internal static class Config
+    {
+        // Discord bot token
+        public const string DISCORD_TOKEN = "59charDiscordTokenFromDiscodDevWebsite";
+
+        // Database access
+        public const string HOSTNAME = "localhost";
+        public const string PORT = "3306";
+        public const string AUTH_DB = "acore_auth";
+        public const string CHAR_DB = "acore_characters";
+        public const string DB_USER = "root";
+        public const string DB_PASS = "password";
+
+        // Info
+        public const string REALMLIST = "127.0.0.1";
+    }
+}
