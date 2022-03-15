@@ -2,7 +2,8 @@
  
 ## Requirements
 
-Install .NET 6 Runtime
+Install .NET 6 Runtime SDK
+There is no pre-built binaries (yet)
  
 
 ## Setup 
